@@ -43,7 +43,7 @@ public class MainActivityUITest {
 
         onView(withId(R.id.btnCount)).perform(click());
 
-        Thread.sleep(300); // allow UI update
+        Thread.sleep(200); // allow UI update
         onView(withId(R.id.txtResult)).check(matches(withText("Result: 4")));
     }
 
@@ -57,7 +57,7 @@ public class MainActivityUITest {
 
         onView(withId(R.id.btnCount)).perform(click());
 
-        Thread.sleep(300);
+        Thread.sleep(200);
         onView(withId(R.id.txtResult)).check(matches(withText("Result: 2")));
     }
 
@@ -71,7 +71,7 @@ public class MainActivityUITest {
 
         onView(withId(R.id.btnCount)).perform(click());
 
-        Thread.sleep(300);
+        Thread.sleep(200);
         onView(withId(R.id.txtResult)).check(matches(withText("Result: 2")));
     }
 
@@ -85,7 +85,7 @@ public class MainActivityUITest {
 
         onView(withId(R.id.btnCount)).perform(click());
 
-        Thread.sleep(300);
+        Thread.sleep(200);
         onView(withId(R.id.txtResult)).check(matches(withText("Result: 2")));
     }
 }
