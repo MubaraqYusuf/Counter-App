@@ -35,7 +35,7 @@ public class MainActivityUITest {
 
     @Test
     public void countWords_correctResult() throws InterruptedException {
-        onView(withId(R.id.txtInput)).perform(typeText("I love Android testing"));
+        onView(withId(R.id.txtInput)).perform(typeText("I love Android Testing"));
         closeSoftKeyboard();
 
         onView(withId(R.id.spnMetric)).perform(click());
@@ -49,7 +49,7 @@ public class MainActivityUITest {
 
     @Test
     public void countSentences_correctResult() throws InterruptedException {
-        onView(withId(R.id.txtInput)).perform(typeText("Hello world. This is great!"));
+        onView(withId(R.id.txtInput)).perform(typeText("Hello World. This is Great!"));
         closeSoftKeyboard();
 
         onView(withId(R.id.spnMetric)).perform(click());
@@ -77,7 +77,7 @@ public class MainActivityUITest {
 
     @Test
     public void countNumbers_correctResult() throws InterruptedException {
-        onView(withId(R.id.txtInput)).perform(typeText("There are 2 dogs and 55 cats"));
+        onView(withId(R.id.txtInput)).perform(typeText("There are 2 Dogs and 55 Cats"));
         closeSoftKeyboard();
 
         onView(withId(R.id.spnMetric)).perform(click());
