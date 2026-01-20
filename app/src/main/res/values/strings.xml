@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Word Counter</string>
-    <string name="hint_enter_text">Enter text here</string>
+    <string name="hint_enter_text">Enter text</string>
     <string name="btn_count">Count</string>
     <string name="result_label">Result:</string>
-    <string name="toast_empty">Please enter some text</string>
+    <string name="toast_empty">Please Enter some text</string>
 
     <string-array name="metrics">
         <item>Sentences</item>
